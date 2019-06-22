@@ -1,5 +1,6 @@
 import React from 'react';
 import { cardData } from '../../data';
+import PropTypes from 'prop-types';
 
 const Card = props => {
   return (
@@ -15,6 +16,18 @@ const Card = props => {
   );
 };
 
+console.log(Card)
+
 // Make sure to include PropTypes.
+
+Card.propTypes = {
+  cards: PropTypes.arrayOf(
+
+    PropTypes.shape({
+      headline: PropTypes.string,
+    })
+
+  )
+}
 
 export default Card;
