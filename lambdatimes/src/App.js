@@ -14,3 +14,7 @@ const App = () => {
 }
 
 export default App;
+
+
+// flow goes like this: `Content > Tabs > 
+// Tab` and `Content > Cards > Card`.

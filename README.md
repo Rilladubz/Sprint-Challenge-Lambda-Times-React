@@ -1,4 +1,4 @@
-# Sprint Challenge: Lambda Times (React)
+# Sprint Challenge: Lambda Times (React) edit
 
 This challenge allows you to practice the concepts and techniques learned over the past Sprint and apply them in a concrete project. This Sprint explored Intermediate React, React Tooling, The React Life-cycle, React Composition Patterns and CSS-in-JS. In this Sprint Challenge, you will demonstrate proficiency by creating an application that uses to build a fully-functioning replicate of the LA-Times website.
 
@@ -31,27 +31,42 @@ Look through the application code. If you have the old Lambda Times (Applied Jav
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What are PropTypes used for? Please describe why it's important to type check our data in JavaScript.
+
+In my own words I would call PropTypes a built in type checker for React designed to make sure that data passed in props is the right kind of data. It's important to check data passed around because other wise it can lead to breaks in the program. 
+
 - [ ] Describe a life-cycle event in React?
+
+React lifecycle is the process in which things happen with in an component. It is broken down by Birth, Mounting, Updating, & Unmounting. In these steps are when things are renders or when events happen it sets off another step in the component lifecycle chain. 
+
 - [ ] Explain the details of a Higher Order Component?
+
+A componly used Reactjs pattern. A Higher order component that can take in another component as an argument. 
+
 - [ ] What are three different ways to style components in React? Explain some of the benefits of each.
+
+Styled Components written in JSX inline with javascript in one and it allows everything to be nested with in a component. 
+
+Breaking down by class and using css to style. This allows you to access compilers like less/sass though sass is more popular if coding in react. 
+
+Third ???
 
 ## Project Setup
 
 Follow these steps to set up your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your project manager as collaborator on Github.
-- [ ] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
-- [ ] From within the `lambdatimes` folder run `yarn` and then `yarn start`. This will open your locally hosted application in your browser. Once you are ready move onto the next steps.
-- [ ] Inside the `Content` folder you will find all 5 components that make up the content of the application. The flow goes like this: `Content > Tabs > Tab` and `Content > Cards > Card`. Follow the directions in the `Content` component to get your data ready.
+- [-] Create a forked copy of this project.
+- [-] Add your project manager as collaborator on Github.
+- [-] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [-] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [-] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [-] Push commits: git push origin `<firstName-lastName>`.
+- [-] From within the `lambdatimes` folder run `yarn` and then `yarn start`. This will open your locally hosted application in your browser. Once you are ready move onto the next steps.
+- [-] Inside the `Content` folder you will find all 5 components that make up the content of the application. The flow goes like this: `Content > Tabs > Tab` and `Content > Cards > Card`. Follow the directions in the `Content` component to get your data ready.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
+- [-] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repository). **Please don't merge your own pull request**
+- [-] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
 
 ## Minimum Viable Product
